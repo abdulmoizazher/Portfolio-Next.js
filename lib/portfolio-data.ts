@@ -38,6 +38,36 @@ export type Experience = {
 }
 
 export const experiences: Experience[] = [
+
+  {
+    slug: "Pixcile Technologies 1", 
+    period: "Oct 2026 – Present",
+    duration: "Ongoing",
+    type: "Full-time",
+    focus: "development",
+    title: "Junior developer",
+    company: "Pixcile Technologies",
+    companyUrl: "https://www.pixciletechnologies.com/",
+    description:
+      "Develop and maintain RESTful Web APIs and backend application logic using C# and .NET. Build modular, responsive web application components using React.js and TypeScript, integrating frontend interfaces with backend services and databases. Perform functional and regression testing to ensure application reliability and stability. Collaborate with cross-functional teams during Agile sprints, resolve software defects, and contribute to application development and continuous improvement throughout the software development lifecycle.",
+    technologies: ["React", "TypeScript", "Tailwind CSS", "Node.js", "Nest.js", "SQL Server"],
+    
+  },
+
+  {
+    slug: "Pixcile Technologies 0",
+    period: "July 2026 – Present",
+    duration: "2 months",
+    type: "Full-time",
+    focus: "development",
+    title: "Software Developer Intern",
+    company: "Pixcile Technologies",
+    companyUrl: "https://www.pixciletechnologies.com/",
+    description:
+      "Develop and maintain RESTful Web APIs and backend application logic using C# and .NET. Build modular, responsive web application components using React.js and TypeScript, integrating frontend interfaces with backend services and databases. Perform functional and regression testing to ensure application reliability and stability. Collaborate with cross-functional teams during Agile sprints, resolve software defects, and contribute to application development and continuous improvement throughout the software development lifecycle.",
+    technologies: ["React", "TypeScript", "Tailwind CSS", "Node.js", "Nest.js", "SQL Server"],
+  },
+
   {
     slug: "algorithm-consulting",
     period: "Nov 2025 – Apr 2026",
