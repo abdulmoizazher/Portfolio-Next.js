@@ -3,7 +3,7 @@ import { Reveal } from "@/components/reveal"
 const experiences = [
 
     {
-    period: "Nov 2026 - Present",
+    period: "Oct 2026 - Present",
     title: "Junior Software developer",
     company: "pixcile technologies",
     companyUrl: "https://www.pixciletechnologies.com/",
