@@ -1,0 +1,22 @@
+html {
+  scroll-padding-top: 5rem;
+}
+
+::selection {
+  background: color-mix(in oklab, var(--foreground) 85%, transparent);
+  color: var(--background);
+}
+
+/* Use JetBrains Mono for every monospace element (unlayered, so it wins over the utility layer). */
+.font-mono,
+code,
+kbd,
+pre {
+  font-family: var(--font-jetbrains-mono), ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}

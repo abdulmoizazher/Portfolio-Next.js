@@ -36,8 +36,8 @@ export function Contact() {
     <section id="contact" className="py-20 lg:py-32 bg-secondary/30">
       <div className="max-w-6xl mx-auto px-6 lg:px-8">
         <div className="grid md:grid-cols-[200px_1fr] gap-8">
-          <h2 className="text-sm font-medium text-muted-foreground uppercase tracking-wide">
-            Contact
+          <h2 className="font-mono text-sm tracking-wide text-muted-foreground">
+            <span className="text-foreground/40">~/</span>contact
           </h2>
           <div className="max-w-xl">
             <p className="text-2xl lg:text-3xl font-medium text-foreground leading-snug mb-8">
